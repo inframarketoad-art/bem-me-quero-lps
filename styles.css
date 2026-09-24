@@ -388,3 +388,5 @@ p { margin: 0 0 1em; }
 .cards--cursos { display: flex; flex-wrap: wrap; justify-content: center; }
 .cards--cursos .card { flex: 0 1 calc((100% - 44px) / 3); }
 @media (max-width: 960px) { .cards--cursos .card { flex-basis: 100%; } }
+.ph--foto::before { display: none; }
+.ph--foto { box-shadow: var(--shadow); }
