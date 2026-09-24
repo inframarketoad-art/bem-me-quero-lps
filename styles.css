@@ -390,3 +390,9 @@ p { margin: 0 0 1em; }
 @media (max-width: 960px) { .cards--cursos .card { flex-basis: 100%; } }
 .ph--foto::before { display: none; }
 .ph--foto { box-shadow: var(--shadow); }
+.gallery--4 { grid-template-columns: repeat(4, 1fr); }
+.gallery--4 .ph { aspect-ratio: 3 / 4; }
+@media (max-width: 700px) { .gallery--4 { grid-template-columns: 1fr 1fr; } }
+.card .ph--foto { aspect-ratio: 1; }
+.quote--real { border-style: solid; }
+.footer a[href*="marketo"] { font-weight: 600; }

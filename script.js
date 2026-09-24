@@ -3,7 +3,9 @@
 // ============================================================
 
 // WhatsApp do studio: DDI + DDD + número, só dígitos. Ex.: '5511987654321'
-const WHATSAPP = '55SEUNUMERO';
+// Enquanto estiver vazio, os botões usam o link da bio do Instagram (sem mensagem pronta).
+const WHATSAPP = '';
+const WHATSAPP_BIO = 'https://w.app/bmqbeauty';
 
 // Link de inscrição/pagamento dos cursos (Kiwify, Hotmart, Sympla...).
 // Deixe vazio ('') para que os botões de inscrição abram o WhatsApp.
@@ -12,7 +14,9 @@ const INSCRICAO_URL = '';
 // ============================================================
 
 const waLink = (msg) =>
-  `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`;
+  WHATSAPP
+    ? `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`
+    : WHATSAPP_BIO;
 
 // Todo elemento com data-wa="mensagem" vira um link de WhatsApp com a mensagem pronta.
 document.querySelectorAll('[data-wa]').forEach((el) => {
