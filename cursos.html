@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cursos Bem-me-quero · Formação em cílios e sobrancelhas</title>
-  <meta name="description" content="Cursos presenciais de extensão de cílios, lash lifting e micropigmentação de sobrancelhas, com turma reduzida, prática em modelo real e suporte depois do curso.">
+  <meta name="description" content="Cursos presenciais de extensão de cílios, lash lifting, design de sobrancelhas, brow lamination e micropigmentação, com turma reduzida, prática em modelo real e suporte depois do curso.">
   <meta name="theme-color" content="#750616">
   <link rel="icon" href="assets/brand/flor-bordo.png">
   <meta property="og:title" content="Cursos Bem-me-quero Studio Beauty">
@@ -53,7 +53,7 @@
       <div>
         <span class="eyebrow">Cursos Bem-me-quero</span>
         <h1>Aprenda a técnica. Saia <em>pronta pra atender.</em></h1>
-        <p class="lead">Formações presenciais em extensão de cílios, lash lifting e micropigmentação de sobrancelhas — com turma reduzida, prática em modelo real e acompanhamento depois do curso.</p>
+        <p class="lead">Formações presenciais em cílios e sobrancelhas: extensão, lash lifting, design de sobrancelhas, brow lamination e micropigmentação — com turma reduzida, prática em modelo real e acompanhamento depois do curso.</p>
         <div class="hero-ctas">
           <a class="btn btn-light" href="#inscricao">Ver turmas e valores <svg><use href="#i-arrow"/></svg></a>
           <a class="btn btn-ghost" data-wa="Olá! Tenho interesse nos cursos da Bem-me-quero e queria tirar umas dúvidas.">
@@ -99,7 +99,7 @@
         <h2>Escolha o seu <em>curso.</em></h2>
       </div>
       <!-- TODO: confirmar carga horária, modalidade e o que cada curso inclui -->
-      <div class="cards">
+      <div class="cards cards--cursos">
         <article class="card reveal">
           <div class="ph"><span>Foto: aula de extensão de cílios</span></div>
           <div class="card-body">
@@ -126,6 +126,34 @@
               <li>Nível <b>Iniciante</b></li>
             </ul>
             <a class="btn btn-primary btn-block" href="#inscricao" data-tab="tab-lifting">Ver valores</a>
+          </div>
+        </article>
+        <article class="card reveal">
+          <div class="ph"><span>Foto: aula de design de sobrancelhas</span></div>
+          <div class="card-body">
+            <span class="card-tag">Porta de entrada</span>
+            <h3>Design de sobrancelhas</h3>
+            <p>Visagismo, medição e simetria, pinça, linha e henna: o serviço mais pedido do salão e a base pra qualquer técnica de sobrancelha.</p>
+            <ul class="facts">
+              <li>Carga horária <b class="todo">— horas</b></li>
+              <li>Modalidade <b>Presencial</b></li>
+              <li>Nível <b>Iniciante</b></li>
+            </ul>
+            <a class="btn btn-primary btn-block" href="#inscricao" data-tab="tab-design">Ver valores</a>
+          </div>
+        </article>
+        <article class="card reveal">
+          <div class="ph"><span>Foto: aula de brow lamination</span></div>
+          <div class="card-body">
+            <span class="card-tag">Tendência</span>
+            <h3>Brow lamination</h3>
+            <p>Alinhamento e fixação dos fios pro efeito de sobrancelha cheia e penteada: avaliação do fio, tempos de ação, tintura e nutrição.</p>
+            <ul class="facts">
+              <li>Carga horária <b class="todo">— horas</b></li>
+              <li>Modalidade <b>Presencial</b></li>
+              <li>Nível <b>Iniciante</b></li>
+            </ul>
+            <a class="btn btn-primary btn-block" href="#inscricao" data-tab="tab-brow">Ver valores</a>
           </div>
         </article>
         <article class="card reveal">
@@ -194,7 +222,7 @@
       <div class="ph reveal"><span>Retrato da instrutora</span></div>
       <div class="reveal">
         <span class="eyebrow">Sua instrutora</span>
-        <h2><em class="todo">[Nome]</em>, lash designer e fundadora da Bem-me-quero.</h2>
+        <h2><em>Camila Líbera</em>, lash designer e fundadora da Bem-me-quero.</h2>
         <p class="lead">Ensino o que faço todos os dias no studio. Você aprende a técnica que funciona na cadeira, com cliente de verdade — e o jeito de transformar isso em agenda cheia.</p>
         <ul class="pill-list">
           <li class="todo">[X] anos de atendimento</li>
@@ -232,6 +260,8 @@
       <div class="offer-tabs" role="tablist" aria-label="Cursos">
         <button role="tab" id="tab-cilios" aria-controls="of-cilios" aria-selected="true">Extensão de cílios</button>
         <button role="tab" id="tab-lifting" aria-controls="of-lifting" aria-selected="false">Lash lifting</button>
+        <button role="tab" id="tab-design" aria-controls="of-design" aria-selected="false">Design de sobrancelhas</button>
+        <button role="tab" id="tab-brow" aria-controls="of-brow" aria-selected="false">Brow lamination</button>
         <button role="tab" id="tab-micro" aria-controls="of-micro" aria-selected="false">Micropigmentação</button>
       </div>
 
@@ -266,6 +296,36 @@
         <div class="next"><span class="todo">Próxima turma: —/—</span><span class="todo">— vagas</span></div>
       </div>
 
+      <div class="offer" role="tabpanel" id="of-design" aria-labelledby="tab-design" hidden>
+        <span class="card-tag">Porta de entrada · presencial</span>
+        <h3>Design de sobrancelhas</h3>
+        <div class="price"><small>R$</small><span class="todo">—</span></div>
+        <p class="price-note todo">ou —x de R$ — no cartão</p>
+        <ul>
+          <li>Teoria, demonstração e prática em modelo</li>
+          <li>Apostila e certificado</li>
+          <li class="todo">Kit de materiais</li>
+          <li>Suporte pós-curso</li>
+        </ul>
+        <a class="btn btn-primary btn-block" data-inscricao="Olá! Quero me inscrever no curso de DESIGN DE SOBRANCELHAS da Bem-me-quero.">Quero minha vaga</a>
+        <div class="next"><span class="todo">Próxima turma: —/—</span><span class="todo">— vagas</span></div>
+      </div>
+
+      <div class="offer" role="tabpanel" id="of-brow" aria-labelledby="tab-brow" hidden>
+        <span class="card-tag">Tendência · presencial</span>
+        <h3>Brow lamination</h3>
+        <div class="price"><small>R$</small><span class="todo">—</span></div>
+        <p class="price-note todo">ou —x de R$ — no cartão</p>
+        <ul>
+          <li>Teoria, demonstração e prática em modelo</li>
+          <li>Apostila e certificado</li>
+          <li class="todo">Kit de materiais</li>
+          <li>Suporte pós-curso</li>
+        </ul>
+        <a class="btn btn-primary btn-block" data-inscricao="Olá! Quero me inscrever no curso de BROW LAMINATION da Bem-me-quero.">Quero minha vaga</a>
+        <div class="next"><span class="todo">Próxima turma: —/—</span><span class="todo">— vagas</span></div>
+      </div>
+
       <div class="offer" role="tabpanel" id="of-micro" aria-labelledby="tab-micro" hidden>
         <span class="card-tag">Especialização · presencial</span>
         <h3>Micropigmentação</h3>
@@ -291,7 +351,7 @@
         <h2>Perguntas <em>frequentes.</em></h2>
       </div>
       <div class="faq reveal">
-        <details><summary>Preciso ter experiência na área?</summary><p>Não. Os cursos de extensão e de lash lifting partem do zero. Pra micropigmentação, a instrutora te orienta sobre o melhor ponto de partida.</p></details>
+        <details><summary>Preciso ter experiência na área?</summary><p>Não. Os cursos de extensão, lash lifting, design de sobrancelhas e brow lamination partem do zero. Pra micropigmentação, a instrutora te orienta sobre o melhor ponto de partida.</p></details>
         <details><summary>Preciso levar modelo?</summary><p class="todo">Resposta a confirmar com a instrutora: o studio providencia a modelo ou a aluna leva?</p></details>
         <details><summary>O curso tem certificado?</summary><p>Sim. Ao concluir o curso, você recebe o certificado de conclusão da Bem-me-quero.</p></details>
         <details><summary>Consigo atender logo depois do curso?</summary><p>Você sai sabendo fazer o procedimento completo. A velocidade e o acabamento vêm com treino — por isso o suporte pós-curso existe: pra te acompanhar nas primeiras clientes.</p></details>

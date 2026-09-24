@@ -15,10 +15,10 @@ As páginas se cruzam: serviços tem uma faixa "Conhecer os cursos" e o rodapé 
 |---|---|---|
 | 1 | **Número do WhatsApp** | `script.js` → `const WHATSAPP` |
 | 2 | Link de checkout dos cursos (Kiwify/Hotmart/Sympla) — opcional | `script.js` → `const INSCRICAO_URL` (vazio = WhatsApp) |
-| 3 | Nome da profissional, anos de experiência, certificações | `#sobre` e `#instrutora` |
+| 3 | Anos de experiência, certificações | `#sobre` e `#instrutora` |
 | 4 | Endereço, horário e @ do Instagram | CTA final de `index.html` + botão "Ver mais no Instagram" |
 | 5 | Valores dos serviços e durações (confirmar) | cards de `#servicos` |
-| 6 | Cursos: carga horária, preço, parcelamento, datas, vagas, kit | `#cursos`, `#inscricao` |
+| 6 | Cursos (5: extensão, lash lifting, design de sobrancelhas, brow lamination, micropigmentação): carga horária, preço, parcelamento, datas, vagas, kit | `#cursos`, `#inscricao` |
 | 7 | Grade real do curso | `#conteudo` |
 | 8 | FAQ de cursos: modelo, pagamento, remarcação | `cursos.html#duvidas` |
 | 9 | **Fotos reais** (olhares, antes/depois, aulas, retratos) | todo `.ph` — trocar por `<img>` dentro do `.ph` |
