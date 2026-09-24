@@ -396,4 +396,4 @@ p { margin: 0 0 1em; }
 .card .ph--foto { aspect-ratio: 1; }
 .quote--real { border-style: solid; }
 .footer a[href*="marketo"] { font-weight: 600; }
-.quote footer .avatar { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; flex: none; }
+.quote footer .avatar { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; flex: none; }
