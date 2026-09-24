@@ -4,7 +4,7 @@
 
 // WhatsApp do studio: DDI + DDD + número, só dígitos. Ex.: '5511987654321'
 // Enquanto estiver vazio, os botões usam o link da bio do Instagram (sem mensagem pronta).
-const WHATSAPP = '';
+const WHATSAPP = '5511963936337';
 const WHATSAPP_BIO = 'https://w.app/bmqbeauty';
 
 // Link de inscrição/pagamento dos cursos (Kiwify, Hotmart, Sympla...).
